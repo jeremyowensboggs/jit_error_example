@@ -1,21 +1,14 @@
-# JitIssue
+# EEX JitIssue
 
-**TODO: Add description**
+EEX it Error Example
 
 ## Installation
 
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `jit_issue` to your list of dependencies in `mix.exs`:
+Issue occurs in OTP 27
 
-```elixir
-def deps do
-  [
-    {:jit_issue, "~> 0.1.0"}
-  ]
-end
-```
+1) Clone the repository
+2) Do `asdf install`
+3) Do `mix compile`
 
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at <https://hexdocs.pm/jit_issue>.
-
+Recieve error:
+> beam/jit/beam_jit_common.cpp:89:codegen() Assertion failed: !err && "Could not resolve all links"
