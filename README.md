@@ -1,6 +1,6 @@
 # EEX JitIssue
 
-EEX it Error Example
+EEX jit Error Example
 
 ## Installation
 
